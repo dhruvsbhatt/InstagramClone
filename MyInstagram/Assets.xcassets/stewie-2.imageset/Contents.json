@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Stewie-Family-Guy.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
