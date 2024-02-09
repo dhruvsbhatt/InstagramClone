@@ -36,6 +36,15 @@
 		FC7693762B59AA5100A99F71 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7693752B59AA5100A99F71 /* ContentViewModel.swift */; };
 		FC7693792B59AC7600A99F71 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7693782B59AC7600A99F71 /* RegistrationViewModel.swift */; };
 		FC76937B2B59EB9600A99F71 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC76937A2B59EB9600A99F71 /* LoginViewModel.swift */; };
+		FCA372B72B74125D00859F62 /* FeedCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA372B62B74125D00859F62 /* FeedCellViewModel.swift */; };
+		FCA372BE2B75278C00859F62 /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA372BD2B75278C00859F62 /* CommentsView.swift */; };
+		FCA372C02B75279400859F62 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA372BF2B75279400859F62 /* CommentCell.swift */; };
+		FCA372C22B755BD600859F62 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA372C12B755BD600859F62 /* Comment.swift */; };
+		FCA372C42B755D3400859F62 /* CommentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA372C32B755D3400859F62 /* CommentService.swift */; };
+		FCA372C62B755D3E00859F62 /* CommentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA372C52B755D3E00859F62 /* CommentsViewModel.swift */; };
+		FCA372C82B75867C00859F62 /* DeveloperPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA372C72B75867C00859F62 /* DeveloperPreview.swift */; };
+		FCA372CA2B759E9000859F62 /* Timestamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA372C92B759E9000859F62 /* Timestamp.swift */; };
+		FCA372CD2B759FB400859F62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA372CC2B759FB400859F62 /* Constants.swift */; };
 		FCC8E7BD2B5864E9006ED07A /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8E7BC2B5864E9006ED07A /* CurrentUserProfileView.swift */; };
 		FCC8E7BF2B5866F1006ED07A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8E7BE2B5866F1006ED07A /* Post.swift */; };
 		FCC8E7C12B5878B3006ED07A /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8E7C02B5878B3006ED07A /* PostGridView.swift */; };
@@ -100,6 +109,15 @@
 		FC7693752B59AA5100A99F71 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		FC7693782B59AC7600A99F71 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		FC76937A2B59EB9600A99F71 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		FCA372B62B74125D00859F62 /* FeedCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCellViewModel.swift; sourceTree = "<group>"; };
+		FCA372BD2B75278C00859F62 /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
+		FCA372BF2B75279400859F62 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		FCA372C12B755BD600859F62 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		FCA372C32B755D3400859F62 /* CommentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentService.swift; sourceTree = "<group>"; };
+		FCA372C52B755D3E00859F62 /* CommentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewModel.swift; sourceTree = "<group>"; };
+		FCA372C72B75867C00859F62 /* DeveloperPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperPreview.swift; sourceTree = "<group>"; };
+		FCA372C92B759E9000859F62 /* Timestamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timestamp.swift; sourceTree = "<group>"; };
+		FCA372CC2B759FB400859F62 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FCC8E7BC2B5864E9006ED07A /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
 		FCC8E7BE2B5866F1006ED07A /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		FCC8E7C02B5878B3006ED07A /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
@@ -175,6 +193,7 @@
 				FC4C4C3D2B56ED58002E2949 /* Extensions */,
 				FC4C4C3C2B56ED50002E2949 /* Model */,
 				FC4C4C3B2B56ED49002E2949 /* Services */,
+				FCA372CB2B759FA200859F62 /* Utils */,
 				FC7693642B59A5BC00A99F71 /* GoogleService-Info.plist */,
 				FC4C4C152B56EA73002E2949 /* Assets.xcassets */,
 				FC4C4C172B56EA73002E2949 /* Preview Content */,
@@ -229,6 +248,8 @@
 		FC4C4C3D2B56ED58002E2949 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				FCA372C72B75867C00859F62 /* DeveloperPreview.swift */,
+				FCA372C92B759E9000859F62 /* Timestamp.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -237,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				FC4C4C412B56ED8F002E2949 /* Authentication */,
+				FCA372B82B75274D00859F62 /* Comments */,
 				FC4C4C4C2B570DA2002E2949 /* Components */,
 				FC4C4C422B56ED9B002E2949 /* Feed */,
 				FC4C4C432B56EDA4002E2949 /* Profile */,
@@ -373,6 +395,58 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		FCA372B82B75274D00859F62 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				FCA372BC2B75276600859F62 /* Model */,
+				FCA372BB2B75276200859F62 /* View */,
+				FCA372BA2B75275F00859F62 /* ViewModel */,
+				FCA372B92B75275C00859F62 /* Service */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		FCA372B92B75275C00859F62 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FCA372C32B755D3400859F62 /* CommentService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FCA372BA2B75275F00859F62 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FCA372C52B755D3E00859F62 /* CommentsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FCA372BB2B75276200859F62 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FCA372BD2B75278C00859F62 /* CommentsView.swift */,
+				FCA372BF2B75279400859F62 /* CommentCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FCA372BC2B75276600859F62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCA372C12B755BD600859F62 /* Comment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCA372CB2B759FA200859F62 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FCA372CC2B759FB400859F62 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		FCFA31D32B5ADF2E008B7780 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -437,6 +511,7 @@
 			isa = PBXGroup;
 			children = (
 				FCFA31E82B5B304D008B7780 /* FeedViewModel.swift */,
+				FCA372B62B74125D00859F62 /* FeedCellViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -602,22 +677,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCA372CA2B759E9000859F62 /* Timestamp.swift in Sources */,
 				FC4C4C522B57112D002E2949 /* FeedCell.swift in Sources */,
 				FCC8E7C52B587AF8006ED07A /* UploadPostView.swift in Sources */,
+				FCA372BE2B75278C00859F62 /* CommentsView.swift in Sources */,
 				FC4C4C4B2B56FD7E002E2949 /* ProfileView.swift in Sources */,
 				FC4C4C142B56EA72002E2949 /* ContentView.swift in Sources */,
 				FC4C4C562B573DB2002E2949 /* LoginView.swift in Sources */,
 				FCFA31DC2B5B033F008B7780 /* EditProfileViewModel.swift in Sources */,
+				FCA372CD2B759FB400859F62 /* Constants.swift in Sources */,
 				FC7693722B59A92000A99F71 /* AuthService.swift in Sources */,
+				FCA372C02B75279400859F62 /* CommentCell.swift in Sources */,
 				FCFA31D22B5ADDB5008B7780 /* UserService.swift in Sources */,
 				FCC8E7BF2B5866F1006ED07A /* Post.swift in Sources */,
 				FC4C4C122B56EA72002E2949 /* MyInstagramApp.swift in Sources */,
 				FCC8E7BD2B5864E9006ED07A /* CurrentUserProfileView.swift in Sources */,
 				FC4C4C582B574991002E2949 /* AddEmailView.swift in Sources */,
 				FCC8E7C12B5878B3006ED07A /* PostGridView.swift in Sources */,
+				FCA372C82B75867C00859F62 /* DeveloperPreview.swift in Sources */,
 				FC4C4C5C2B574F1C002E2949 /* CreateUsernameView.swift in Sources */,
 				FCFA31E92B5B304D008B7780 /* FeedViewModel.swift in Sources */,
 				FC7693762B59AA5100A99F71 /* ContentViewModel.swift in Sources */,
+				FCA372B72B74125D00859F62 /* FeedCellViewModel.swift in Sources */,
+				FCA372C42B755D3400859F62 /* CommentService.swift in Sources */,
+				FCA372C62B755D3E00859F62 /* CommentsViewModel.swift in Sources */,
 				FCFA31EB2B5B4569008B7780 /* PostService.swift in Sources */,
 				FCFA31D82B5AFFA9008B7780 /* EditProfileView.swift in Sources */,
 				FCFA31EF2B5B62B5008B7780 /* PostGridViewModel.swift in Sources */,
@@ -634,6 +717,7 @@
 				FC4C4C502B571126002E2949 /* FeedView.swift in Sources */,
 				FCFA31E32B5B22F1008B7780 /* CircularProfileImageView.swift in Sources */,
 				FCFA31D62B5ADF42008B7780 /* SearchViewModel.swift in Sources */,
+				FCA372C22B755BD600859F62 /* Comment.swift in Sources */,
 				FC4C4C492B56EF5B002E2949 /* MainTabView.swift in Sources */,
 				FC4C4C5E2B575026002E2949 /* CreatePasswordView.swift in Sources */,
 			);
@@ -807,6 +891,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -836,6 +921,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
